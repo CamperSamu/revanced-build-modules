@@ -2,7 +2,7 @@ name: CI
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 14 * * *"
+    - cron: "0 16 * * *"
 
 jobs:
   check:
@@ -44,8 +44,6 @@ jobs:
   build:
     permissions: write-all
     needs: check
-    uses: ./.github/workflows/matrix-build.yml
+    uses: ./.github/workflows/build.yml
     if: ${{ needs.check.outputs.SHOULD_BUILD == 1 }}
-    secrets:
-      TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
-      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+    secrets: inherit
