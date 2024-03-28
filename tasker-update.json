@@ -1,6 +1,6 @@
 {
   "version": "v6.2.22",
-  "versionCode": 2,
-  "zipUrl": "https://github.com/CamperSamu/revanced-build-modules/releases/download/2/tasker-revanced-magisk-v6.2.22-all.zip",
+  "versionCode": 3,
+  "zipUrl": "https://github.com/CamperSamu/revanced-build-modules/releases/download/3/tasker-revanced-magisk-v6.2.22-all.zip",
   "changelog": "https://raw.githubusercontent.com/CamperSamu/revanced-build-modules/update/build.md"
 }
