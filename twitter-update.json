@@ -1,6 +1,6 @@
 {
-  "version": "v10.34.0-release.0",
-  "versionCode": 5,
-  "zipUrl": "https://github.com/CamperSamu/revanced-build-modules/releases/download/5/twitter-revanced-magisk-v10.34.0-release.0-all.zip",
+  "version": "v10.37.0-release.0",
+  "versionCode": 6,
+  "zipUrl": "https://github.com/CamperSamu/revanced-build-modules/releases/download/6/twitter-revanced-magisk-v10.37.0-release.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/CamperSamu/revanced-build-modules/update/build.md"
 }
